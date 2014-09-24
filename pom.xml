@@ -19,12 +19,18 @@
     </repositories>
     <!-- Dependencies -->
     <dependencies>
-      <dependency>
-          <groupId>org.bukkit</groupId>
-          <artifactId>bukkit</artifactId>
-          <version>1.7.2-R0.1-SNAPSHOT</version>
-          <scope>provided</scope>
-      </dependency>
+        <dependency>
+            <groupId>org.bukkit</groupId>
+            <artifactId>bukkit</artifactId>
+            <version>1.7.2-R0.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
     <!-- How we will compile the plugin -->
     <build>
@@ -73,8 +79,8 @@
     </build>
     <distributionManagement>
         <repository>
-            <id>battleplugins-repo</id>
-            <url>scp://server.battleplugins.com/var/www/server.battleplugins.com/htdocs/maven/repository</url>
+            <id>rainbowcraft-repo</id>
+            <url>scp://rainbowcraft.sytes.net/var/www/maven/repository</url>
         </repository>
     </distributionManagement>
 </project>
